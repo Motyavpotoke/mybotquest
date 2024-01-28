@@ -1,0 +1,115 @@
+{
+  "locations": {
+     "start": {
+      "description": "Вы пришли на стадион. Что будете делать?",
+      "image_url": "https://disk.yandex.ru/i/wXnNdnfKki1oxQ",
+      "actions": {
+        "Остаться поиграть": "start_play",
+        "Уйти домой": "back"
+      }
+    },
+    "start_play": {
+      "description": "Вы находитесь на спортивном стадионе. Выберите площадку на которую хотите пойти.",
+      "image_url": "https://disk.yandex.ru/i/V0NB-R1Jp-nezA",
+      "actions": {
+        "Пойти на футбольное поле": "fotball",
+        "Посетить баскетбольную площадку": "basketball_court",
+        "Посетить хоккейное поле": "hockey_rink"
+      }
+    },
+    "back": {
+      "description": "Пока! Приходи как захочешь поиграть",
+      "image_url": "https://disk.yandex.ru/i/bEjhXHJGROaqRA"
+    },
+    "start_menu": {
+      "description": "Привет дорогой игрок, предлагаю тебе пройти спортивный квест.",
+      "actions": {
+        "Начать квест": "let's go",
+        "Команды бота": "command"
+      }
+    },
+    "fotball": {
+      "description": "Вы находитесь на футбольном поле, выбирите удар который хотите выполнить.",
+      "image_url": "https://disk.yandex.ru/i/7q7F97DAMIyyvw",
+      "actions": {
+        "Сделать дальний удар": "long_shot",
+        "Ударить пенальти": "penalty_shot"
+      }
+    },
+    "penalty_shot": {
+      "description": "Вы находитесь перед воротами. Ударьте по воротам!",
+      "image_url": "https://disk.yandex.ru/i/LT8WZ2IdkRQD7w",
+      "actions": {
+        "Ударить в левый угол": "miss",
+        "Ударить в правый угол": "goal"
+      }
+    },
+    "basketball_court": {
+      "description": "Вы находитесь на баскетбольной площадке. У вас есть несколько вариантов броска, выберите один из них.",
+      "image_url": "https://disk.yandex.ru/i/4sH6vezmeYVx3Q",
+      "actions": {
+        "Средний бросок": "mid_range_shot",
+        "Трёхочковый бросок": "three_point_shot",
+        "Штрафной бросок": "free_throw"
+      }
+    },
+    "mid_range_shot": {
+      "description": "Вы делаете средний бросок. И забиваете его и проходите квест!!!",
+      "image_url": "https://disk.yandex.ru/i/xGxv8caqldJdMg"
+    },
+    "three_point_shot": {
+      "description": "Вы делаете трёхочковый бросок. И промахиваетесь и из за этого ваша команда проиграла.",
+      "image_url": "https://disk.yandex.ru/i/ozaae_WKVmin6g"
+    },
+    "free_throw": {
+      "description": "Вы делаете штрафной бросок. И забиваете и проходите квест!!!",
+      "image_url": "https://disk.yandex.ru/i/xGxv8caqldJdMg"
+    },
+    "hockey_rink": {
+      "description": "Вы находитесь на хоккейном поле. У вас есть возможность сделать буллит или отдать его товарищу",
+      "image_url": "https://disk.yandex.ru/i/CwX8ZPGlbqaPDg",
+      "actions": {
+        "Выполнить буллит": "shoot",
+        "Отдать возможность выполнить буллит своему товарищу": "team_shoot"
+      }
+    },
+    "shoot": {
+      "description": "Вы делаете бросок! И забиваете и проходите квест!!!",
+      "image_url": "https://disk.yandex.ru/i/IND3ocrxnvDLOA"
+    },
+    "goal": {
+      "description": "Гол!Вы победили",
+      "image_url": "https://disk.yandex.ru/i/rYKMKjQ_NOe68w",
+      "actions": {
+        "Вернуться назад": "start"
+      }
+    },
+    "miss": {
+      "description": "Ты не забил, попробуй ещё раз пройти квест!",
+      "image_url": "https://disk.yandex.ru/i/MLdQGzzRUeHsXQ",
+      "actions": {
+        "Вернуться назад": "start"
+      }
+    },
+    "long_shot": {
+      "description": "Выполни дальний удар.",
+      "image_url": "https://disk.yandex.ru/i/ITRQdEqXE6OEGQ",
+      "actions": {
+        "Выполнить удар по центру": "miss",
+        "Выполнить удар в верхний правый угол": "da"
+      }
+    },
+    "team_shoot": {
+      "description": "Твой товарищ не смог забить и вы проиграли",
+      "image_url": "https://disk.yandex.ru/i/X08HP4Mpeyj3BQ"
+
+    },
+    "da": {
+      "description": "Ты выиграл, поздравляю!!!",
+      "image_url": "https://disk.yandex.ru/i/wx1znnZlj2D9_g"
+      }
+    }
+
+}
+
+
