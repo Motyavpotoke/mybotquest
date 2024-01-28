@@ -2,7 +2,7 @@ import json
 from telebot import TeleBot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-Bot_Token = ""
+Bot_Token = input("Введите свой токен")
 bot = TeleBot(Bot_Token)
 
 with open('locations2.json', encoding='utf-8') as file:
